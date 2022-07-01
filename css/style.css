@@ -1,0 +1,32 @@
+@charset "utf-8";
+/* CSS Document */
+table,th,td {
+  border : 1px solid black;
+  border-collapse: collapse;
+}
+th,td {
+  padding: 5px;
+}
+.boton {
+  font-family: Arial;
+  color: #460cb0;
+  font-size: 15px;
+  padding: 10px;
+  text-decoration: none;
+  -webkit-border-radius: 33px;
+  -moz-border-radius: 33px;
+  border-radius: 33px;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  text-shadow: 1px 1px 3px #e0a212;
+  border: solid #050203 2px;
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#defa3f), to(#fa7705));
+  background: -moz-linear-gradient(top, #defa3f, #fa7705);
+}
+.boton:hover {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#ab4313), to(#e09882));
+  background: -moz-linear-gradient(top, #ab4313, #e09882)
+}
+
+
